@@ -1,0 +1,52 @@
+{
+  "name": "mojoka",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "attr-accept": "^2.2.2",
+    "express": "^4.17.1",
+    "material-ui-dropzone": "^3.5.0",
+    "material-ui-image": "^3.3.1",
+    "page-flip": "^2.0.5",
+    "pdf-img-convert": "^1.0.3",
+    "pdfjs-dist": "^2.6.347",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-pageflip": "^1.0.0",
+    "react-pdf-to-image": "^1.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.0",
+    "worker-loader": "^3.0.8"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "startLocal": "react-scripts start",
+    "buildLocal": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
